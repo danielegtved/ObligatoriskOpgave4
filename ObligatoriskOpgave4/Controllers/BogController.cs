@@ -11,13 +11,13 @@ namespace ObligatoriskOpgave4.Controllers
     [ApiController]
     public class BogController : ControllerBase
     {
-        public static List<Bog> BogList = new List<Bog>()
-        {
-            new Bog("Very Poter", "Gertrud", 12, "1234657980123"),
-            new Bog("Little Poter", "Gertrud", 13, "1234657980124"),
-            new Bog("Big Poter", "Gertrud", 666, "1234657980125"),
-            new Bog("Poter", "Gertrud", 12, "1234657980126")
-        };
+        //public static List<Bog> BogList = new List<Bog>()
+        //{
+        //    new Bog("Very Poter", "Gertrud", 12, "1234657980123"),
+        //    new Bog("Little Poter", "Gertrud", 13, "1234657980124"),
+        //    new Bog("Big Poter", "Gertrud", 666, "1234657980125"),
+        //    new Bog("Poter", "Gertrud", 12, "1234657980126")
+        //};
 
         // GET: api/Bog
         [HttpGet]
